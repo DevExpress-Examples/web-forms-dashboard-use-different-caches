@@ -9,6 +9,7 @@
 
 Namespace WebFormsDashboardUseDifferentCaches
 
+
 	Partial Public Class [Default]
 
 		''' <summary>

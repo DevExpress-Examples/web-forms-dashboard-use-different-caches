@@ -15,7 +15,7 @@ To refresh the data source cache **on the client**, you can call the [DashboardC
 - Click **Refresh Cache (Server)** to force the cache reset on the server.
 - Click **Refresh Cache (Client)** to force the cache reset using the client API.
 
-![](reset-cache-button.png)
+![](reset-cache-buttons.png)
 
 
 ## Files to Look At

@@ -20,8 +20,9 @@ To refresh the data source cache **on the client**, you can call the [DashboardC
 
 ## Files to Look At
 
-* [Default.aspx.cs](/CS/WebFormsDashboardUseDifferentCaches/Default.aspx.cs) (VB: [Default.aspx.vb](/VB/WebFormsDashboardUseDifferentCaches/Default.aspx.vb))
-* [CacheManager.cs](/CS/WebFormsDashboardUseDifferentCaches/CacheManager.cs) (VB: [CacheManager.vb](/VB/WebFormsDashboardUseDifferentCaches/CacheManager.vb))
+- [Default.aspx](/CS/WebFormsDashboardUseDifferentCaches/Default.aspx) (VB: [Default.aspx](/VB/WebFormsDashboardUseDifferentCaches/Default.aspx))
+- [Default.aspx.cs](/CS/WebFormsDashboardUseDifferentCaches/Default.aspx.cs) (VB: [Default.aspx.vb](/VB/WebFormsDashboardUseDifferentCaches/Default.aspx.vb))
+- [CacheManager.cs](/CS/WebFormsDashboardUseDifferentCaches/CacheManager.cs) (VB: [CacheManager.vb](/VB/WebFormsDashboardUseDifferentCaches/CacheManager.vb))
 
 ## Documentation
 

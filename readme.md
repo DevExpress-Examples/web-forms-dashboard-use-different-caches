@@ -13,6 +13,8 @@ For instance, you can store a unique GUID value within a session as a parameter 
 
 Use the **Refresh Cache** button to update the cache forcedly.
 
+![](reset-cache-button.png)
+
 To refresh the data source cache on the client side, you can call the [DashboardControl.reloadData](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl#js_DevExpress_Dashboard_DashboardControl_reloadData) client method.
 
 ## Files to Look At

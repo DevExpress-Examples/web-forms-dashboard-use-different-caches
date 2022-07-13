@@ -5,14 +5,23 @@
     function onBeforeRender(sender) {
         var control = sender.GetDashboardControl();
         control.registerExtension(new DevExpress.Dashboard.DashboardPanelExtension(control, { dashboardThumbnail: "./Content/DashboardThumbnail/{0}.png" }));
+
+    }
+    function onClick() {
+        clientDashboardControl1.GetDashboardControl().refresh();
+        // To refresh specific dashboard items, pass their names as parameters:
+        // clientDashboardControl1.GetDashboardControl().refresh( ["chartDashboardItem1", "listBoxDashboardItem1"] );
     }
 </script>
     <div style="position: absolute; top: 5px; left: 5px">
-        <dx:ASPxButton runat="server" Text="Reset Cache" OnClick="ASPxButton1_Click"></dx:ASPxButton>
+        <dx:ASPxButton runat="server" Text="Reset Cache (Server)" OnClick="ASPxButton1_Click"></dx:ASPxButton>
+    </div>
+    <div style="position: absolute; top: 5px; left: 192px">
+        <dx:ASPxButton runat="server" Text="Reset Cache (Client)"><ClientSideEvents Click="onClick" /></dx:ASPxButton>
     </div>
     <div style="position: absolute; top: 43px; bottom: 0; right: 0; left: 0; border-top: 1px solid #cfcfcf">
         <dx:ASPxDashboard ID="ASPxDashboard1" runat="server" OnCustomParameters="ASPxDashboard1_CustomParameters" 
-            Width="100%" Height="100%">
+            Width="100%" Height="100%" ClientInstanceName="clientDashboardControl1">
             <ClientSideEvents BeforeRender="onBeforeRender" />
         </dx:ASPxDashboard>
     </div>

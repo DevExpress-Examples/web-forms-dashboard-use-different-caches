@@ -8,9 +8,7 @@
 
     }
     function onClick() {
-        clientDashboardControl1.GetDashboardControl().refresh();
-        // To refresh specific dashboard items, pass their names as parameters:
-        // clientDashboardControl1.GetDashboardControl().refresh( ["chartDashboardItem1", "listBoxDashboardItem1"] );
+        clientDashboardControl1.GetDashboardControl().reloadData();
     }
 </script>
     <div style="position: absolute; top: 5px; left: 5px">

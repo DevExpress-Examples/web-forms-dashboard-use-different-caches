@@ -11,7 +11,7 @@ To refresh the data source cache on the server side, pass a unique parameter val
 
 For instance, you can store a unique GUID value within a session as a parameter and update its value in your code when it is necessary to refresh the cache.
 
-Use the **Refresh Cache** button to update the cache forcedly.
+Click **Refresh Cache** to update the cache forcedly.
 
 ![](reset-cache-button.png)
 

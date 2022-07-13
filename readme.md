@@ -6,15 +6,17 @@
 
 # Dashboard for Web Forms - How to Reset the Data Source Cache on the Server
 
-To refresh the data source cache on the server side, pass a unique parameter value to the [ASPxDashboard.CustomParameters](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomParameters) event.
+The following example shows how you can manage the cache in the ASP.NET Web Forms Dashboard control.
 
-For instance, you can store a unique GUID value within a session as a parameter and update its value in your code when it is necessary to refresh the cache.
+To refresh the data source cache **on the server**, pass a unique parameter value to the [ASPxDashboard.CustomParameters](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomParameters) event. You can store the unique GUID value within a session as a parameter and update its value in your code when it is necessary to refresh the cache.
 
-Click **Refresh Cache** to force the cache reset.
+To refresh the data source cache **on the client**, you can call the [DashboardControl.reloadData](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl#js_DevExpress_Dashboard_DashboardControl_reloadData) client method.
 
-![](reset-cache-button.png)
+- Click **Refresh Cache (Server)** to force the cache reset on the server.
+- Click **Refresh Cache (Client)** to force the cache reset using the client API.
 
-To refresh the data source cache on the client, you can call the [DashboardControl.reloadData](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl#js_DevExpress_Dashboard_DashboardControl_reloadData) client method.
+![](reset-cache-buttons.png)
+
 
 ## Files to Look At
 

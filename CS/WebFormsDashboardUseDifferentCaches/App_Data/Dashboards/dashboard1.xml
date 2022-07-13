@@ -49,8 +49,8 @@
   </Items>
   <LayoutTree>
     <LayoutGroup Weight="100">
-      <LayoutItem DashboardItem="listBoxDashboardItem1" Weight="34.589299171062549" />
-      <LayoutItem DashboardItem="chartDashboardItem1" Weight="165.41070082893745" />
+      <LayoutItem DashboardItem="listBoxDashboardItem1" Weight="59.410301557697387" />
+      <LayoutItem DashboardItem="chartDashboardItem1" Weight="140.58969844230262" />
     </LayoutGroup>
   </LayoutTree>
 </Dashboard>

@@ -3,9 +3,8 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T828692)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
 
-# Dashboard for Web Forms - How to Reset the Cache Forcedly
+# Dashboard for Web Forms - How to Forcibly Reset the Data Source Cache on the Server
 
 To refresh the data source cache on the server side, pass a unique parameter value to the [ASPxDashboard.CustomParameters](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomParameters) event.
 
@@ -15,7 +14,7 @@ Click **Refresh Cache** to update the cache forcedly.
 
 ![](reset-cache-button.png)
 
-To refresh the data source cache on the client side, you can call the [DashboardControl.reloadData](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl#js_DevExpress_Dashboard_DashboardControl_reloadData) client method.
+To refresh the data source cache on the client, you can call the [DashboardControl.reloadData](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl#js_DevExpress_Dashboard_DashboardControl_reloadData) client method.
 
 ## Files to Look At
 

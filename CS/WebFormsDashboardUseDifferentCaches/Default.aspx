@@ -5,7 +5,6 @@
     function onBeforeRender(sender) {
         var control = sender.GetDashboardControl();
         control.registerExtension(new DevExpress.Dashboard.DashboardPanelExtension(control, { dashboardThumbnail: "./Content/DashboardThumbnail/{0}.png" }));
-
     }
     function onClick() {
         clientDashboardControl1.GetDashboardControl().reloadData();

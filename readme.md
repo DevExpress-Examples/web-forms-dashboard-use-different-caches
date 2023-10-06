@@ -18,7 +18,7 @@ To refresh the data source cache **on the client**, you can call the [DashboardC
 ![](reset-cache-buttons.png)
 
 
-## Files to Look At
+## Files to Review
 
 - [Default.aspx](/CS/WebFormsDashboardUseDifferentCaches/Default.aspx) (VB: [Default.aspx](/VB/WebFormsDashboardUseDifferentCaches/Default.aspx))
 - [Default.aspx.cs](/CS/WebFormsDashboardUseDifferentCaches/Default.aspx.cs) (VB: [Default.aspx.vb](/VB/WebFormsDashboardUseDifferentCaches/Default.aspx.vb))

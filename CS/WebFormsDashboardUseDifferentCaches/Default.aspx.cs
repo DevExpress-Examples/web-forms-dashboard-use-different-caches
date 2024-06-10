@@ -26,8 +26,8 @@ namespace WebFormsDashboardUseDifferentCaches {
             ASPxDashboard1.SetDataSourceStorage(dataSourceStorage);
         }
 
-        protected void ASPxDashboard1_CustomParameters(object sender, CustomParametersWebEventArgs e) {
-            e.Parameters.Add(new DashboardParameter("Param1", typeof(Guid), CacheManager.UniqueCacheParam));
+        protected void ASPxDashboard1_DataSourceCacheKeyCreated(object sender, DataSourceCacheKeyCreatedEventArgs e) {
+            e.Key.CustomData.Add("SessionId", CacheManager.UniqueCacheParam.ToString());
         }
 
         protected void ASPxButton1_Click(object sender, EventArgs e) {

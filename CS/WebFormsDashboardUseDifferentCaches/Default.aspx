@@ -17,7 +17,7 @@
         <dx:ASPxButton runat="server" Text="Reset Cache (Client)"><ClientSideEvents Click="onClick" /></dx:ASPxButton>
     </div>
     <div style="position: absolute; top: 43px; bottom: 0; right: 0; left: 0; border-top: 1px solid #cfcfcf">
-        <dx:ASPxDashboard ID="ASPxDashboard1" runat="server" OnCustomParameters="ASPxDashboard1_CustomParameters" 
+        <dx:ASPxDashboard ID="ASPxDashboard1" runat="server" OnDataSourceCacheKeyCreated="ASPxDashboard1_DataSourceCacheKeyCreated" 
             Width="100%" Height="100%" ClientInstanceName="clientDashboardControl1">
             <ClientSideEvents BeforeRender="onBeforeRender" />
         </dx:ASPxDashboard>

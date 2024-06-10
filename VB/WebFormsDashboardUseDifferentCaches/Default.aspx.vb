@@ -22,8 +22,8 @@ Namespace WebFormsDashboardUseDifferentCaches
             ASPxDashboard1.SetDataSourceStorage(dataSourceStorage)
         End Sub
 
-        Protected Sub ASPxDashboard1_CustomParameters(ByVal sender As Object, ByVal e As CustomParametersWebEventArgs)
-            e.Parameters.Add(New DashboardParameter("Param1", GetType(Guid), CacheManager.UniqueCacheParam))
+        Protected Sub ASPxDashboard1_DataSourceCacheKeyCreated(ByVal sender As Object, ByVal e As DataSourceCacheKeyCreatedEventArgs)
+            e.Key.CustomData.Add("SessionId", CacheManager.UniqueCacheParam.ToString())
         End Sub
 
         Protected Sub ASPxButton1_Click(ByVal sender As Object, ByVal e As EventArgs)

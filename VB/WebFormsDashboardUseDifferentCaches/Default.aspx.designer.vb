@@ -6,17 +6,21 @@
 '     the code is regenerated. 
 ' </auto-generated>
 '------------------------------------------------------------------------------
+
+Option Strict On
+Option Explicit On
+
 Namespace WebFormsDashboardUseDifferentCaches
 
-    Public Partial Class [Default]
+	Partial Public Class [Default]
 
-        ''' <summary>
-        ''' ASPxDashboard1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected ASPxDashboard1 As Global.DevExpress.DashboardWeb.ASPxDashboard
-    End Class
+		'''<summary>
+		'''ASPxDashboard1 control.
+		'''</summary>
+		'''<remarks>
+		'''Auto-generated field.
+		'''To modify move field declaration from designer file to code-behind file.
+		'''</remarks>
+		Protected WithEvents ASPxDashboard1 As Global.DevExpress.DashboardWeb.ASPxDashboard
+	End Class
 End Namespace

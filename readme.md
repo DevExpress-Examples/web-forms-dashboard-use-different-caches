@@ -9,7 +9,7 @@
 
 The following example shows how you can manage the cache in the ASP.NET Web Forms Dashboard control.
 
-To refresh the data source cache **on the server**, add a unique value to the [CustomData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.IDataSourceCacheKey.CustomData) field in the he [ASPxDashboard.DataSourceCacheKeyCreated](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.DataSourceCacheKeyCreated) or [DashboardConfigurator.DataSourceCacheKeyCreated](http://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.DashboardConfigurator.DataSourceCacheKeyCreated) event event handler. You can store the unique GUID value within a session as a parameter and update its value in your code when it is necessary to refresh the cache.
+To refresh the data source cache **on the server**, add a unique value to the [CustomData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.IDataSourceCacheKey.CustomData) field in the [ASPxDashboard.DataSourceCacheKeyCreated](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.DataSourceCacheKeyCreated) or [DashboardConfigurator.DataSourceCacheKeyCreated](http://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.DashboardConfigurator.DataSourceCacheKeyCreated) event handler. You can store the unique GUID value within a session as a parameter and update its value in your code when it is necessary to refresh the cache.
 
 To refresh the data source cache **on the client**, you can call the [DashboardControl.reloadData](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl#js_DevExpress_Dashboard_DashboardControl_reloadData) client method.
 
